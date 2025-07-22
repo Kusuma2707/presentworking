@@ -8,7 +8,7 @@ pipeline {
             }
         }
 
-        stage('Setup Python Environment') {
+        stage('JFrog Artiacts') {
             steps {
                 sh '''
                     python3 -m venv venv
